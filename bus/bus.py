@@ -2,7 +2,7 @@ import csv
 def main():
     file = open("students.csv", "a")
     writer = csv.writer(file)
-    for i in 55:
+    for i in 8:
         first = input("first name: ")
         last = input("last name: ")
         x = (input("grade level: ")
