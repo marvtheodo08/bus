@@ -12,3 +12,4 @@ def main():
           grade = int(x)
         else:
           x = (input("grade level: ")
+main()
