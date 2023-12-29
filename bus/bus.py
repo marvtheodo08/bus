@@ -12,4 +12,5 @@ def main():
           grade = int(x)
         else:
           x = (input("grade level: ")
+        writer.writerow([first, last, grade])
 main()
