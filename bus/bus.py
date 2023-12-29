@@ -1,8 +1,8 @@
 import csv
 def main():
-    with open("students.csv", "a") as file:
-      writer = csv.writer(file)
-      for i in 8:
+  with open("students.csv", "a") as file:
+    writer = csv.writer(file)
+    for i in 8:
         first = input("first name: ")
         last = input("last name: ")
         x = input("grade level: ")
@@ -12,5 +12,9 @@ def main():
           grade = int(x)
         else:
           x = (input("grade level: ")
-      writer.writerow([first, last, grade])
+        writer.writerow([first, last, grade])
+   file.close()
+   read = open("student.csv")
+   reader = csv.reader(read)
+    
 main()
