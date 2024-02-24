@@ -3,4 +3,6 @@ import sqlite3
 
 @app.route('/', methods=['GET','POST'])
 def homepage():
+  return render_template("index.html")
+
                          
